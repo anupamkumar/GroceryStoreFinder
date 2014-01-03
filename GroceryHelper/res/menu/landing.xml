@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item android:id="@+id/current_loc"
+        android:title="My Location" 
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/cycle_shops"
+        android:title="Visit shops"
+        android:showAsAction="ifRoom" />
+</menu>
